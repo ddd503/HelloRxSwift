@@ -26,7 +26,8 @@
 		459AA4B2236089AC00C8BD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459AA4B5236089AC00C8BD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459AA4B7236089AC00C8BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		459AA4BD23608BFD00C8BD2E /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		459AA4BD23608BFD00C8BD2E /* Session1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Session1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		45E84AAC23634DA200172698 /* Session2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Session2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		460BBAEBA59444D8B1D9825F /* Pods_HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2B33E08B0EA915454AC885 /* Pods-HelloRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +73,7 @@
 		459AA4A8236089AA00C8BD2E /* HelloRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				459AA4BD23608BFD00C8BD2E /* RxSwiftPlayground.playground */,
+				45E84AAD23635DA200172698 /* RxSwiftPlayground */,
 				459AA4A9236089AA00C8BD2E /* AppDelegate.swift */,
 				459AA4AB236089AA00C8BD2E /* SceneDelegate.swift */,
 				459AA4AD236089AA00C8BD2E /* ViewController.swift */,
@@ -82,6 +83,15 @@
 				459AA4B7236089AC00C8BD2E /* Info.plist */,
 			);
 			path = HelloRxSwift;
+			sourceTree = "<group>";
+		};
+		45E84AAD23635DA200172698 /* RxSwiftPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				459AA4BD23608BFD00C8BD2E /* Session1.playground */,
+				45E84AAC23634DA200172698 /* Session2.playground */,
+			);
+			path = RxSwiftPlayground;
 			sourceTree = "<group>";
 		};
 		5A6940D65DC7A61335F5FD0A /* Pods */ = {
