@@ -11,12 +11,25 @@ import RxSwift
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak private var photoImageView: UIImageView!
+
+    private let disposeBag = DisposeBag()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         navigationController?.navigationBar.prefersLargeTitles = true
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let nc = segue.destination as? UINavigationController, let photosCVC = nc.topViewController as? PhotoCollectionViewController else {
+            return
+        }
+
+        photosCVC.selectedPhoto.subscribe(onNext: { [weak self] photo in
+            self?.photoImageView.image = photo
+            }).disposed(by: disposeBag)
+    }
 
 }
 

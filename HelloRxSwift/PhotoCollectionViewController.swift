@@ -8,11 +8,16 @@
 
 import UIKit
 import Photos
+import RxSwift
 
 private let reuseIdentifier = "Cell"
 
 class PhotoCollectionViewController: UICollectionViewController {
 
+    private let selectedPhotoSubject = PublishSubject<UIImage>()
+    var selectedPhoto: Observable<UIImage> {
+        return selectedPhotoSubject.asObservable()
+    }
     private var images = [PHAsset]()
 
     override func viewDidLoad() {
@@ -65,6 +70,19 @@ class PhotoCollectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDelegate
 
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let selectedPhoto = images[indexPath.row]
+        let options = PHImageRequestOptions()
+        options.deliveryMode = .highQualityFormat
+        let manager = PHImageManager.default()
+
+        manager.requestImage(for: selectedPhoto, targetSize: CGSize(width: 300, height: 300), contentMode: .aspectFit, options: options) { [weak self] (image, _) in
+            if let image = image {
+                self?.selectedPhotoSubject.onNext(image)
+                self?.dismiss(animated: true, completion: nil)
+            }
+        }
+    }
 
 }
 
