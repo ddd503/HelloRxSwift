@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4544A98023643E730053D6D6 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4544A97F23643E730053D6D6 /* PhotoCollectionViewController.swift */; };
 		459AA4AA236089AA00C8BD2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459AA4A9236089AA00C8BD2E /* AppDelegate.swift */; };
 		459AA4AC236089AA00C8BD2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459AA4AB236089AA00C8BD2E /* SceneDelegate.swift */; };
 		459AA4AE236089AA00C8BD2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459AA4AD236089AA00C8BD2E /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		1874D7F34A1FDBF9449A9542 /* Pods-HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		4544A97F23643E730053D6D6 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		459AA4A6236089AA00C8BD2E /* HelloRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459AA4A9236089AA00C8BD2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		459AA4AB236089AA00C8BD2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				459AA4B2236089AC00C8BD2E /* Assets.xcassets */,
 				459AA4B4236089AC00C8BD2E /* LaunchScreen.storyboard */,
 				459AA4B7236089AC00C8BD2E /* Info.plist */,
+				4544A97F23643E730053D6D6 /* PhotoCollectionViewController.swift */,
 			);
 			path = HelloRxSwift;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				459AA4AE236089AA00C8BD2E /* ViewController.swift in Sources */,
 				459AA4AA236089AA00C8BD2E /* AppDelegate.swift in Sources */,
 				459AA4AC236089AA00C8BD2E /* SceneDelegate.swift in Sources */,
+				4544A98023643E730053D6D6 /* PhotoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
