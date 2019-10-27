@@ -36,11 +36,11 @@ class ViewController: UIViewController {
 
     @IBAction func didTapApplyFilter(_ sender: UIButton) {
         guard let inputImage = photoImageView.image else { return }
-        FilterSevice().applyFileter(to: inputImage) { [weak self] (image) in
+        FilterService().applyFileterObserve(to: inputImage).subscribe(onNext: { [weak self] filterImage in
             DispatchQueue.main.async {
-                self?.updateImage(image)
+                self?.updateImage(filterImage)
             }
-        }
+        }).disposed(by: disposeBag)
     }
 
     private func updateImage(_ image: UIImage) {

@@ -1,5 +1,5 @@
 //
-//  FilterSevice.swift
+//  FilterService.swift
 //  HelloRxSwift
 //
 //  Created by kawaharadai on 2019/10/28.
@@ -9,8 +9,9 @@
 import Foundation
 import UIKit
 import CoreImage
+import RxSwift
 
-class FilterSevice {
+class FilterService {
 
     private var context: CIContext
 
@@ -18,7 +19,17 @@ class FilterSevice {
         context = CIContext()
     }
 
-    func applyFileter(to inputImage: UIImage, completion: (UIImage) -> ()) {
+    func applyFileterObserve(to inputImage: UIImage) -> Observable<UIImage> {
+        return Observable<UIImage>.create { observer in
+            self.applyFileter(to: inputImage) { image in
+                observer.onNext(image)
+            }
+
+            return Disposables.create()
+        }
+    }
+
+    private func applyFileter(to inputImage: UIImage, completion: (UIImage) -> ()) {
         let filter = CIFilter(name: "CICMYKHalftone")!
         filter.setValue(5.0, forKey: kCIInputWidthKey)
 
