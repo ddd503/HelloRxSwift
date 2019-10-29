@@ -30,6 +30,9 @@
 		455A38C7236871C600AE7B06 /* Session5-4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session5-4.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		455A38C82368728A00AE7B06 /* Session5-5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session5-5.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		455A38C9236873A200AE7B06 /* Session5-6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session5-6.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		455A38CA2368751600AE7B06 /* Session5-7.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session5-7.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		455A38CB236875C800AE7B06 /* Session5-8.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session5-8.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		455A38CC236876C400AE7B06 /* Session5-9.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session5-9.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		459AA4A6236089AA00C8BD2E /* HelloRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459AA4A9236089AA00C8BD2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		459AA4AB236089AA00C8BD2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +124,9 @@
 				455A38C7236871C600AE7B06 /* Session5-4.playground */,
 				455A38C82368728A00AE7B06 /* Session5-5.playground */,
 				455A38C9236873A200AE7B06 /* Session5-6.playground */,
+				455A38CA2368751600AE7B06 /* Session5-7.playground */,
+				455A38CB236875C800AE7B06 /* Session5-8.playground */,
+				455A38CC236876C400AE7B06 /* Session5-9.playground */,
 			);
 			path = RxSwiftPlayground;
 			sourceTree = "<group>";

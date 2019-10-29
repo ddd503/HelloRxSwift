@@ -7,17 +7,17 @@ let disposeBag = DisposeBag()
 let subject = PublishSubject<String>()
 let trigger = PublishSubject<String>()
 
-// skipUntil()は指定したオブジェクトが購読されるまで購読させない縛り(今回の$0はsubjectの方)
-subject.skipUntil(trigger)
+/// takeUntil()は中に指定したsubjectが購読されるまで自身の購読を続ける（triggerが購読されたらsubjectの購読は止まる）
+subject.takeUntil(trigger)
     .subscribe(onNext: {
         print($0)
     }).disposed(by: disposeBag)
 
-subject.onNext("A")
-subject.onNext("B")
+subject.onNext("1")
+subject.onNext("2")
 
 trigger.onNext("X")
 
-subject.onNext("C")
+subject.onNext("3")
 
-// 結果：C（A, Bは無視される）
+// 結果：1, 2
