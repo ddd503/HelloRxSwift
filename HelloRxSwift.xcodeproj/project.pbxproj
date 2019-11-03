@@ -33,6 +33,9 @@
 		455A38CA2368751600AE7B06 /* Session5-7.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session5-7.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		455A38CB236875C800AE7B06 /* Session5-8.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session5-8.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		455A38CC236876C400AE7B06 /* Session5-9.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session5-9.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		455A38F5236EB39700AE7B06 /* Session7-1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session7-1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		455A38F6236EB55100AE7B06 /* Session7-2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session7-2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		455A38F7236EB84800AE7B06 /* Session7-3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session7-3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		459AA4A6236089AA00C8BD2E /* HelloRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459AA4A9236089AA00C8BD2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		459AA4AB236089AA00C8BD2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 		459AA4B5236089AC00C8BD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459AA4B7236089AC00C8BD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		459AA4BD23608BFD00C8BD2E /* Session1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Session1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		45DFFFB0236EC43B00FBE997 /* Session7-4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session7-4.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		45E84AAC23634DA200172698 /* Session2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Session2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		45E84AAE23635E3F00172698 /* Session3-1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session3-1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		45E84AAF2363617500172698 /* Session3-2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session3-2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -127,6 +131,10 @@
 				455A38CA2368751600AE7B06 /* Session5-7.playground */,
 				455A38CB236875C800AE7B06 /* Session5-8.playground */,
 				455A38CC236876C400AE7B06 /* Session5-9.playground */,
+				455A38F5236EB39700AE7B06 /* Session7-1.playground */,
+				455A38F6236EB55100AE7B06 /* Session7-2.playground */,
+				455A38F7236EB84800AE7B06 /* Session7-3.playground */,
+				45DFFFB0236EC43B00FBE997 /* Session7-4.playground */,
 			);
 			path = RxSwiftPlayground;
 			sourceTree = "<group>";
