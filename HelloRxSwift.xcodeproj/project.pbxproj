@@ -22,6 +22,8 @@
 /* Begin PBXFileReference section */
 		1874D7F34A1FDBF9449A9542 /* Pods-HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		4502605D2379A4B1002AA28C /* Session9-1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session9-1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4502605E237ADC20002AA28C /* Session9-2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session9-2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4502605F237ADD54002AA28C /* Session9-3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Session9-3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4544A97F23643E730053D6D6 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		4544A981236478400053D6D6 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		4544A9832365E9F90053D6D6 /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
@@ -137,6 +139,8 @@
 				455A38F7236EB84800AE7B06 /* Session7-3.playground */,
 				45DFFFB0236EC43B00FBE997 /* Session7-4.playground */,
 				4502605D2379A4B1002AA28C /* Session9-1.playground */,
+				4502605E237ADC20002AA28C /* Session9-2.playground */,
+				4502605F237ADD54002AA28C /* Session9-3.playground */,
 			);
 			path = RxSwiftPlayground;
 			sourceTree = "<group>";
