@@ -31,6 +31,7 @@
 		4544A97F23643E730053D6D6 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		4544A981236478400053D6D6 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		4544A9832365E9F90053D6D6 /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
+		455849A823A4BF49008AD852 /* zip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = zip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		455A38C423686E4500AE7B06 /* ignoreElements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ignoreElements.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		455A38C523686FD000AE7B06 /* elementAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = elementAt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		455A38C62368710400AE7B06 /* filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -149,6 +150,7 @@
 				45026061237B16A1002AA28C /* withLatestFrom.playground */,
 				45026062237C273F002AA28C /* reduce.playground */,
 				45026063237C2C43002AA28C /* scan.playground */,
+				455849A823A4BF49008AD852 /* zip.playground */,
 			);
 			path = RxSwiftPlayground;
 			sourceTree = "<group>";

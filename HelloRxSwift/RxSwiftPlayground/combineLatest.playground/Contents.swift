@@ -29,10 +29,33 @@ right.onNext(1)
 right.onNext(2)
 center.onNext(40)
 /*
-結果
+ 結果
  45 1 20
  30 1 20
  30 1 20
  30 2 20
  30 2 40
+ */
+
+
+// 例２
+let password = PublishSubject<String>()
+let repeatedPassword = PublishSubject<String>()
+_ = Observable.combineLatest(password, repeatedPassword) {
+    "\($0), \($1)"
+}
+.subscribe(onNext:
+    { print("onNext: ", $0)
+})
+password.onNext("a")
+password.onNext("ab")
+repeatedPassword.onNext("A")
+repeatedPassword.onNext("AB")
+repeatedPassword.onNext("ABC")
+
+/*
+ 結果
+ onNext:  ab, A
+ onNext:  ab, AB
+ onNext:  ab, ABC
  */
